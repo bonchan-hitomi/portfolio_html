@@ -1,0 +1,303 @@
+body {
+    width: 100%;
+}
+
+
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quest {
+    width: 100%;
+    background: url(images/haikei1.jpg);
+}
+
+
+.box {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'VT323', monospace;
+    background: url(images/haikei1.jpg);
+}
+
+.box1 {
+    height: 60px;
+    width: 150px;
+    background: #fff;
+    border: 3px solid #010d0a;
+    margin-top: 10px;
+    transition: all 0.6s ease 0s;
+}
+
+.box1:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.box2 {
+
+    height: 60px;
+    width: 150px;
+    background: #fff;
+    border: 3px solid #010d0a;
+    margin-top: 10px;
+    transition: all 0.6s ease 0s;
+}
+
+.box2:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.box3 {
+    height: 60px;
+    width: 150px;
+    background: #fff;
+    border: 3px solid #010d0a;
+    margin-top: 10px;
+    transition: all 0.6s ease 0s;
+}
+
+.box3:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.box4 {
+    height: 60px;
+    width: 150px;
+    background: #fff;
+    border: 3px solid #010d0a;
+    margin-top: 10px;
+    transition: all 0.6s ease 0s;
+}
+
+.box4:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+a {
+    display: block;
+}
+
+#about {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#feature {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#skill {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Form-haikei {
+    background: url(images/haikei1.jpg);
+    width: 100%;
+}
+
+#Form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+
+@media screen and (max-width: 480px) {
+    .Form {
+        margin-top: 40px;
+    }
+}
+
+.Form-Item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .Form-Item {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-wrap: wrap;
+    }
+}
+
+.Form-Item-Label {
+    width: 100%;
+    max-width: 248px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    .Form-Item-Label {
+        max-width: inherit;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+}
+
+.Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .Form-Item-Label.isMsg {
+        margin-top: 0;
+    }
+}
+
+.Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #010d0a;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #fff;
+
+}
+
+@media screen and (max-width: 480px) {
+    .Form-Item-Label-Required {
+        border-radius: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 32px;
+        font-size: 10px;
+    }
+}
+
+.Form-Item-Input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+    border: 2px solid #010d0a;
+}
+
+@media screen and (max-width: 480px) {
+    .Form-Item-Input {
+        margin-left: 0;
+        margin-top: 18px;
+        height: 40px;
+        flex: inherit;
+        font-size: 15px;
+    }
+}
+
+.Form-Item-Textarea {
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+    border: 2px solid #010d0a;
+}
+
+@media screen and (max-width: 480px) {
+    .Form-Item-Textarea {
+        margin-top: 18px;
+        margin-left: 0;
+        height: 200px;
+        flex: inherit;
+        font-size: 15px;
+    }
+}
+
+.Form-Btn {
+    border-radius: 6px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #010d0a;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .Form-Btn {
+        margin-top: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 160px;
+        font-size: 16px;
+    }
+}
+
+
+#page-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 18px;
+}
+
+#page-top a {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #010d0a;
+    border: 3px solid #010d0a;
+}
+
+#page-top i {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-40%) translateX(-50%);
+}
+
+.footer-logo {
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+    background: url(images/haikei1.jpg);
+    font-family: 'VT323', monospace;
+    color: #fff;
+}
